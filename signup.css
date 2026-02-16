@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background:
+    linear-gradient(rgba(0, 0, 0.03), rgba(0, 0, 0, 0.3)),
+    url("./assets/herobar.jpg");
+  min-height: 85vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.signup-container span {
+  color: red;
+  padding-right: 10px;
+}
+
+.signup-container h1 {
+  color: white;
+}
+
+.signup-container h2 {
+  color: red;
+  padding-left: 38px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+
+.signup-container {
+  margin-top: 50px;
+  margin-left: 500px;
+}
+
+.input placeholder {
+  margin-left: 10px;
+  padding-left: 60px;
+}
+
+.input1 input {
+  padding-top: 20px;
+  padding-bottom: 18px;
+  padding-left: 40px;
+  margin-left: 20px;
+  border: none;
+}
+
+.input2 input {
+  padding-top: 20px;
+  padding-bottom: 18px;
+  padding-left: 40px;
+  margin-left: 20px;
+  border: none;
+}
+
+.input3 input {
+  padding-top: 20px;
+  padding-bottom: 18px;
+  padding-left: 40px;
+  margin-left: 20px;
+  border: none;
+}
+.input4 input {
+  padding-top: 20px;
+  padding-bottom: 18px;
+  padding-left: 40px;
+  margin-left: 20px;
+  border: none;
+}
+
+.signup-container .btn2 {
+  background-color: white;
+  padding-right: 2.8rem;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  border-radius: 70px;
+  border: none;
+  margin-left: 18px;
+  margin-left: 6px;
+  margin-bottom: 18px;
+}
+
+.signup-container .btn1 {
+  background-color: white;
+  padding: 18px 80px;
+  margin-left: 20px;
+  border-radius: 70px;
+  border: none;
+}
+
+.signup-container .btn1 a {
+  font-size: 20px;
+  color: red;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+}
+
+.signup-container .btn2 a {
+  padding-left: 59px;
+  font-size: 20px;
+  color: red;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+}
+
+form h3 {
+  padding-bottom: 9px;
+  padding-top: 9px;
+  padding-left: 40px;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+}
+
+form h3 a {
+  color: red;
+}

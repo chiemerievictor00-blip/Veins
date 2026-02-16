@@ -1,0 +1,378 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.headers {
+  color: red;
+  padding-left: 590px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.headers span {
+  color: white;
+}
+
+body {
+  background:
+    linear-gradient(rgba(0, 0, 0.03), rgba(0, 0, 0, 0.3)),
+    url("./assets/herobar.jpg");
+  min-height: 85vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.instructors img {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 29vw;
+  height: 69vh;
+  border-radius: 55px;
+}
+
+.instructors {
+  margin-right: 30px;
+  padding-bottom: 15px;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-left: 30px;
+}
+
+.anita {
+  background-color: black;
+  border: 2px solid red;
+  border-radius: 8px;
+  color: white;
+}
+
+.grace {
+  background-color: black;
+  border: 2px solid red;
+  border-radius: 8px;
+  color: white;
+}
+
+.daniel {
+  background-color: black;
+  border: 2px solid red;
+  border-radius: 8px;
+  color: white;
+}
+
+.micheal img {
+  padding-left: 18px;
+  padding-top: 10px;
+}
+
+.grace img {
+  padding-left: 18px;
+  padding-top: 10px;
+}
+
+.bruce img {
+  padding-left: 16px;
+  padding-top: 10px;
+}
+
+.daniel img {
+  padding-left: 25px;
+  padding-top: 10px;
+}
+
+.pharez img {
+  padding-left: 18px;
+  padding-top: 10px;
+}
+
+.chris img {
+  padding-left: 18px;
+  padding-top: 10px;
+}
+
+.chris {
+  background-color: black;
+  border: 2px solid red;
+  border-radius: 8px;
+  color: white;
+}
+
+.paul img {
+  padding-left: 25px;
+  padding-top: 10px;
+}
+
+.james img {
+  padding-left: 19px;
+  padding-top: 10px;
+}
+
+.samuel img {
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.andrew img {
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.andrew {
+  background-color: black;
+  border: 2px solid red;
+  border-radius: 8px;
+  color: white;
+}
+
+.gabriel img {
+  padding-left: 25px;
+  padding-top: 10px;
+}
+
+.gabriel {
+  background-color: black;
+  border: 2px solid red;
+  border-radius: 8px;
+  color: white;
+}
+
+.james {
+  background-color: black;
+  border: 2px solid red;
+  border-radius: 8px;
+  color: white;
+}
+
+.micheal {
+  background-color: black;
+  border: 2px solid red;
+  border-radius: 8px;
+  color: white;
+}
+.samuel {
+  background-color: black;
+  border: 2px solid red;
+  border-radius: 8px;
+  color: white;
+}
+
+.pharez {
+  background-color: black;
+  border: 2px solid red;
+  border-radius: 8px;
+  color: white;
+}
+
+.bruce {
+  background-color: black;
+  border: 2px solid red;
+  border-radius: 8px;
+  color: white;
+}
+.paul {
+  background-color: black;
+  border: 2px solid red;
+  border-radius: 8px;
+  color: white;
+}
+
+.sarah {
+  background-color: black;
+  border: 2px solid red;
+  border-radius: 8px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.john {
+  background-color: black;
+  border: 2px solid red;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.david {
+  background-color: black;
+  padding-left: 10px;
+  border: 2px solid red;
+  border-radius: 8px;
+  padding-top: 10px;
+}
+
+.sarah img {
+  padding-right: 10px;
+}
+
+.david img {
+  padding-right: 15px;
+}
+
+.sarah h2 {
+  color: white;
+}
+
+.john h2 {
+  color: white;
+}
+
+.david h2 {
+  color: white;
+}
+
+.instructors h3 {
+  color: red;
+  padding-left: 10px;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+}
+
+.instructors p {
+  color: white;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  font-weight: bolder;
+  padding-left: 10px;
+}
+
+.instructors button {
+  margin-left: 8px;
+  background-color: red;
+  margin-top: 11px;
+  padding: 6px;
+  border: 1px solid red;
+  border-radius: 3px;
+}
+
+.instructors button a {
+  font-weight: bolder;
+  color: white;
+  font-size: 16px;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+}
+
+.instructors h2 {
+  padding-left: 10px;
+}
+
+.chris button {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.pharez button {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.daniel button {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.gabriel button {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.andrew button {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.samuel button {
+  margin-top: 27px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.james button {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.bruce button {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.micheal button {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.grace button {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.anita button {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.paul button {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-top: 27px;
+}
+
+.navbar {
+  display: flex;
+  background-color: black;
+  padding-bottom: 8px;
+}
+
+.navbar .logo img {
+  width: 90px;
+  border-radius: 200px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+  padding-left: 5px;
+}
+navlinks ul {
+  justify-content: center;
+  gap: 43px;
+  display: flex;
+  padding-left: 450px;
+  padding-top: 26px;
+}
+
+navlinks ul a {
+  font-size: 20px;
+  font-weight: bolder;
+  color: red;
+  gap: 43px;
+}
+
+navlinks button a {
+  color: white;
+}
+
+navlinks button {
+  background-color: red;
+  border-radius: 9px;
+  border: none;
+  padding: 5px;
+}
+
+.logo h2 {
+  color: red;
+  font-size: 29px;
+  align-items: center;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+}

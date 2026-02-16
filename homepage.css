@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+
+.navbar {
+  display: flex;
+  background-color: black;
+  padding-bottom: 8px;
+}
+
+.navbar .logo img {
+  width: 90px;
+  border-radius: 200px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+  padding-left: 5px;
+}
+
+.logo h2 {
+  color: red;
+  font-size: 29px;
+  align-items: center;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+}
+
+navlinks ul {
+  justify-content: center;
+  gap: 43px;
+  display: flex;
+  padding-left: 450px;
+  padding-top: 26px;
+}
+
+navlinks ul a {
+  font-size: 20px;
+  font-weight: bolder;
+  color: red;
+  gap: 43px;
+}
+
+navlinks button a {
+  color: white;
+}
+
+navlinks button {
+  background-color: red;
+  border-radius: 9px;
+  border: none;
+  padding: 5px;
+}
+
+.heropage {
+  background:
+    linear-gradient(rgba(0, 0,.03), rgba(0, 0, 0, 0.3)),
+    url("./assets/herobar.jpg");
+  min-height: 85vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heropage {
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+.heropage button {
+    font-weight: bolder;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color: red;
+    padding: 8px 8px;
+    border: none;
+}
+
+.heropage a {
+    font-size: 16px;
+    color: white;
+    justify-content: center;
+    justify-items: center;
+}
+
+.heronumbers {
+    margin-top: 20px;
+    gap: 70px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  padding-left: 50px;
+}
+
+.heropage h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+}
+
+.heropage h1 span {
+    color: red;
+}
+
+.heropage h3 {
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.heropage h2 {
+  color: red;
+}
+
+.heropage h5 {
+  color: white;
+}
+
+.heropage a {
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.heronumbers h5 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.heronumbers h2 { 
+    padding-right: 12px;
+
+}

@@ -108,7 +108,6 @@ navlinks button {
 }
 
 .heropage h1 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: white;
 }
 
@@ -116,13 +115,35 @@ navlinks button {
     color: red;
 }
 
+.herobtns {
+  
+}
+
 .heropage h3 {
+  margin-bottom: 20px;
+  margin-top: 20px;
   color: white;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.heropage h2 {
+.first h2 {
   color: red;
+  padding-left: 120px;
+}
+
+.second h2 {
+  color: white;
+  padding-left: 85px;
+}
+
+.third h2 {
+  color: red;
+  padding-left: 50px;
+}
+
+.heronumbers a {
+    font-size: 30px;
+    color: red;
 }
 
 .heropage h5 {

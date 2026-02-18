@@ -4,7 +4,8 @@
   text-decoration: none;
 }
 
-body {
+
+/* body {
   background:
     linear-gradient(rgba(0, 0, 0.03), rgba(0, 0, 0, 0.3)),
     url("./assets/herobar.jpg");
@@ -12,35 +13,9 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
-.pricingcontainer {
-  margin-top: 30px;
-  display: flex;
-  gap: 30px;
-  padding-left: 190px;
-  padding-bottom: 30px;
-  padding-top: 30px;
-  height: 70v;
-}
-
-.basicplan {
-  background-color: black;
-  color: red;
-  border: solid white;
-  padding: 90px 20px;
-  border-radius: 25px;
-}
-
-.premiumplan {
-  background-color: black;
-  color: red;
-  border: solid white;
-  padding: 90px 20px;
-  border-radius: 25px;
-}
-
-.headers {
+/* .headers {
   color: red;
   padding-left: 500px;
   padding-top: 30px;
@@ -48,62 +23,8 @@ body {
 
 .headers span {
   color: white;
-}
+} */
 
-.basicplan button {
-  background-color: white;
-  border: none;
-  margin-top: 15px;
-  padding: 6px 6px;
-  border-radius: 6px;
-}
-
-.basicplan button a {
-  color: red;
-  font-size: 16px;
-  font-weight: bolder;
-}
-
-.standardplan button {
-  background-color: white;
-  border: none;
-  margin-top: 15px;
-  padding: 6px 6px;
-  border-radius: 6px;
-}
-
-.standardplan button a {
-  color: red;
-  font-size: 16px;
-  font-weight: bolder;
-}
-
-.premiumplan button {
-  background-color: white;
-  border: none;
-  margin-top: 15px;
-  padding: 6px 6px;
-  border-radius: 6px;
-}
-
-.premiumplan button a {
-  color: red;
-  font-size: 16px;
-  font-weight: bolder;
-}
-
-.amount {
-  color: white;
-  padding-left: 60px;
-  border-bottom: solid white;
-  padding-bottom: 20px;
-}
-
-.activities {
-  padding-top: 20px;
-  font-size: 20px;
-  font-weight: bolder;
-}
 
 .basicplan .bx {
   font-size: 90px;
@@ -176,38 +97,4 @@ navlinks button {
   font-family:
     "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
     Arial, sans-serif;
-}
-
-.popular-field legend {
-  font-weight: bolder;
-  font-family:
-    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
-    Arial, sans-serif;
-  margin-left: 60px;
-  padding-bottom: 20px;
-
-  border: none;
-  padding: 5px 20px;
-  border-radius: 9px;
-  background-color: red;
-}
-
-.popular-field {
-  background-color: black;
-  color: white;
-  border: 4px solid white;
-  border-radius: 18px;
-}
-
-.standardplan .amount {
-  padding-top: 50px;
-  padding-bottom: 300px;
-}
-
-.standardplan .bx {
-  padding-top: 48px;
-}
-
-.standardplan .activities {
-  padding-bottom: 200px;
 }

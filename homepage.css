@@ -51,14 +51,19 @@ navlinks ul a {
 }
 
 navlinks button a {
-  color: white;
+  color: black;
+}
+
+navlinks button:hover { 
+  background-color: red;
+  transition: background-color 0.1s,
 }
 
 navlinks button {
-  background-color: red;
   border-radius: 9px;
   border: none;
   padding: 5px;
+  cursor: pointer;
 }
 
 .heropage {

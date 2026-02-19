@@ -5,7 +5,7 @@
 }
 
 
-/* body {
+ body {
   background:
     linear-gradient(rgba(0, 0, 0.03), rgba(0, 0, 0, 0.3)),
     url("./assets/herobar.jpg");
@@ -13,58 +13,75 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-} */
+}
 
-/* .headers {
+.headers {
   color: red;
   padding-left: 500px;
-  padding-top: 30px;
+  padding-top: 50px;
 }
 
 .headers span {
-  color: white;
-} */
-
-.basicplan {
-  background-color: rgba(0, 0, 0, 0.178);
+  color: white;  
 }
 
-.standardplan {
-  background-color: rgba(0, 0, 0, 0.274);
+
+
+
+.basicplan {
+  border-radius: 25px;
+  background-color: red;
+  padding: 20px 25px;
 }
 
 .premiumplan {
-  background-color: rgba(0, 0, 0, 0.356);
+  border-radius: 25px;
+  background-color: red;
+  padding: 20px 25px;
 }
 
 .pricingcontainer {
   display: flex;
   gap: 30px;
-  margin-top: 30px;
-  padding-left: 190px;
+  margin-top: 95px;
+  padding-left: 290px;
+}
+
+.popular-field .amount {
+  color: chartreuse;
+  border: none;
+  margin-right: 19px;
 
 }
 
 
+.popular-field {
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 15px;
+ 
+}
 
-
-
-
-
-
-
+.popular-field legend {
+  border-radius: 15px;
+  margin-left: 62px;
+  background-color: red;
+  padding: 5px 20px;
+}
 .basicplan .bx {
+  color: white;
   font-size: 90px;
   padding-left: 70px;
 }
 
 .standardplan .bx {
-  color: red;
+  color: white;
   font-size: 90px;
   padding-left: 70px;
 }
 
 .premiumplan .bx {
+  color: white;
   font-size: 90px;
   padding-left: 70px;
 }

@@ -2,6 +2,7 @@
   margin: 0;
   box-sizing: border-box;
   text-decoration: none;
+  list-style: none;
 }
 
 body {
@@ -59,8 +60,8 @@ body {
 }
 
 .popular-field {
-  border: 2px solid red;
-  border: none;
+  box-shadow: 0px 8px 8px red;
+  border: 3px solid red;
   background-color: black;
   font-size: 20px;
   font-weight: bolder;
@@ -68,7 +69,7 @@ body {
 }
 
 .premiumplan .btn3 {
-  margin-top: 18px;
+  margin-top: 69px;
   border-radius: 8px;
   padding: 6px 6px;
   border: none;
@@ -83,7 +84,7 @@ body {
 }
 
 .popular-field .btn2 {
-  margin-top: 18px;
+  margin-top: 70px;
   border-radius: 8px;
   padding: 6px 6px;
   border: none;
@@ -99,22 +100,31 @@ body {
 }
 
 .premiumplan .btn3 :hover {
-  background-color: red;
+  color: red;
+  border: 2px solid black;
+  padding: 8px 8px;
+  border-radius: 12px;
 }
 
 .basicplan .btn1 {
-  margin-top: 18px;
+  margin-top: 100px;
   border-radius: 8px;
   padding: 6px 6px;
   border: none;
 }
 
 .basicplan .btn1 :hover {
-  background-color: red;
+  color: red;
+  border: 2px solid black;
+  padding: 8px 8px;
+  border-radius: 12px;
 }
 
 .popular-field .btn2 :hover {
-  background-color: red;
+  color: red;
+  border: 2px solid black;
+  padding: 8px 8px;
+  border-radius: 12px;
 }
 
 .basicplan .btn1 a {
@@ -138,39 +148,30 @@ body {
 }
 
 .basicplan .bx {
+  padding-top: 20px;
   color: red;
   font-size: 90px;
   padding-left: 70px;
 }
 
 .activities1 {
-  font-family:
-    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
-    Arial, sans-serif;
-  font-size: 20px;
   padding-top: 20px;
   color: red;
 }
 
 .popular-field .activities2 {
   padding-left: 0px;
-  font-family:
-    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
-    Arial, sans-serif;
   padding-top: 20px;
   color: red;
 }
 
 .activities3 {
-  font-family:
-    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
-    Arial, sans-serif;
-  font-size: 20px;
   padding-top: 20px;
   color: red;
 }
 
 .amount3 {
+  padding-top: 20px;
   color: red;
   padding-left: 50px;
 }
@@ -191,6 +192,7 @@ body {
 }
 
 .premiumplan .bx {
+  padding-top: 30px;
   color: red;
   font-size: 90px;
   padding-left: 70px;
@@ -230,21 +232,100 @@ navlinks ul a {
 }
 
 navlinks button a {
-  color: white;
+  color: black;
 }
 
 navlinks button {
-  background-color: red;
+  background-color: white;
   border-radius: 9px;
   border: none;
   padding: 5px;
 }
 
-.logo h2 {
-  color: red;
-  font-size: 29px;
-  align-items: center;
-  font-family:
-    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
-    Arial, sans-serif;
+navlinks button:hover { 
+  background-color: red;
+  transition: background-color 0.1s,
 }
+
+.footer {
+  display: flex;
+  background-color:  black;
+  border-top: 2px solid red;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  gap: 100px;
+}
+
+.socials {
+  padding-left: 18px;
+}
+
+.socials p {
+  font-size: 20px;
+  padding-top: 10px;
+  color: red;
+}
+
+.footer h2 {
+  color: white;
+}
+
+.listings1 {
+  display: flex;
+  gap: 15px;
+  padding-top: 10px;
+}
+
+.newsletter p {
+  font-size: 20px;
+  color: red;
+  padding-top: 10px;
+  padding-bottom:10px;
+}
+
+.quicklinks ul a {
+  padding-top: 10px;
+  font-size: 20px;
+  color: red;
+} 
+
+.quicklinks ul  {
+  padding-top: 10px;
+}
+
+
+.contactus ul a {
+  padding-top: 10px;
+  color: red;
+}
+
+
+input {
+  padding: 8px 8px;
+  border: none;
+  border-radius: 4px;
+}
+
+form button {
+  padding: 8px 8px;
+  border: none;
+  border-radius: 4px;
+}
+ form button a {
+  color: red;
+  font-weight: bold;
+}
+
+form button:hover {
+  background-color: white;
+}
+
+form button a:hover {
+  color: black;
+}
+
+
+
+
+

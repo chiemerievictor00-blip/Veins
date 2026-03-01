@@ -242,16 +242,16 @@ body {
 
 .instructors button {
   margin-left: 8px;
-  background-color: red;
+  background-color: white;
   margin-top: 11px;
   padding: 6px;
-  border: 1px solid red;
+  border: none;
   border-radius: 3px;
 }
 
 .instructors button a {
   font-weight: bolder;
-  color: white;
+  color: black;
   font-size: 16px;
   font-family:
     "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
@@ -312,10 +312,73 @@ body {
   margin-bottom: 10px;
   margin-left: 10px;
 }
+.grace button:hover {
+  background-color: red;
+}
+.micheal button:hover {
+  background-color: red;
+}
+
+.david button:hover {
+  background-color: red;
+}
+
+.sarah button:hover {
+  background-color: red;
+}
+
+.john button:hover {
+  background-color: red;
+}
+
+.paul button:hover {
+  background-color: red;
+}
+
+.pharez button:hover {
+  background-color: red;
+}
+
+.james button:hover {
+  background-color: red;
+}
+
+.bruce button:hover {
+  background-color: red;
+}
+
+.gabriel button:hover {
+  background-color: red;
+}
+
+.samuel button:hover {
+  background-color: red;
+}
+
+.andrew button:hover {
+  background-color: red;
+}
+
+.chris button:hover {
+  background-color: red;
+}
+
+.daniel button:hover {
+  background-color: red;
+}
 
 .anita button {
+  border: none;
   margin-bottom: 10px;
   margin-left: 10px;
+}
+
+.anita button a {
+  color: black;
+}
+
+.anita button:hover {
+  background-color: red;
 }
 
 .paul button {
@@ -358,15 +421,22 @@ navlinks ul a {
 }
 
 navlinks button a {
-  color: white;
+  color: black;
 }
 
 navlinks button {
-  background-color: red;
+  background-color: white;
   border-radius: 9px;
   border: none;
   padding: 5px;
 }
+
+navlinks button:hover { 
+  background-color: red;
+  transition: background-color 0.1s,
+}
+
+
 
 .logo h2 {
   color: red;

@@ -62,8 +62,8 @@ navlinks button:hover {
 navlinks button {
   border-radius: 9px;
   border: none;
-  padding: 5px;
-  cursor: pointer;
+  padding: 3px 3px;
+  margin-right: 3px;
 }
 
 .heropage {

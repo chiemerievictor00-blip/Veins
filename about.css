@@ -117,6 +117,7 @@ body {
 }
 
 .aboutimage img {
+  background-color: black;
   border: 2px solid red;
   box-shadow: 0px 8px 8px  red;
   margin-left: 40px;
@@ -133,4 +134,16 @@ body {
   color: white;
   font-size: 25px;
   padding-bottom: 30px;
+}
+
+
+.abhead {
+  color: red;
+  padding-left: 590px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.abhead span {
+  color: white;
 }

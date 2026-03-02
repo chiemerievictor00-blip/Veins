@@ -76,7 +76,7 @@ body {
 
 .writeup {
   padding-top: 70px;
-  background-color: black;
+  /* background-color: black; */
   display: flex;
 }
 

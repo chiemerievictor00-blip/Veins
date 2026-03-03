@@ -93,7 +93,7 @@ body {
   border-radius: 55px;
 }
 .classes h3 {
-  color: red;
+  color: white;
   padding-left: 10px;
   font-family:
     "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
@@ -118,6 +118,12 @@ body {
   border-radius: 3px;
 }
 
+.classes button:hover {
+  background-color: red;
+}
+
+
+
 .classes button a {
   font-weight: bolder;
   color: black;
@@ -129,7 +135,7 @@ body {
 
 
 .classes h4 {
-  color: aqua;
+  color: red;
   padding-left: 10px;
   font-family:
     "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
@@ -138,11 +144,8 @@ body {
 
 
 .classes h2 {
-  color: aqua;
+  color: red;
   padding-left: 10px;
-  font-family:
-    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
-    Arial, sans-serif;
 }
 
 .classhead {
@@ -172,8 +175,66 @@ body {
     padding-left: 4px;
 }
 
+.boxing button {
+  margin-top: 30px;
+}
+
 .seniorfitness {
     border: 2px solid red;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    background-color: black;
+    padding-left: 4px;
+}
+
+.crossfit {
+      border: 2px solid red;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    background-color: black;
+    padding-left: 4px;
+
+}
+
+.pilates {
+      border: 2px solid red;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    background-color: black;
+    padding-left: 4px;
+}
+
+.spin {
+      border: 2px solid red;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    background-color: black;
+    padding-left: 4px;
+}
+
+
+.abs {
+      border: 2px solid red;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    background-color: black;
+    padding-left: 4px;
+}
+
+.abs button {
+  margin-top: 30px;
+}
+
+.bootcamp {
+      border: 2px solid red;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    background-color: black;
+    padding-left: 4px;
+}
+
+.strenght {
+      border: 2px solid red;
     padding-bottom: 20px;
     border-radius: 15px;
     background-color: black;

@@ -148,6 +148,10 @@ navlinks button {
     color: red;
 }
 
+.heronumbers h1 a:hover {
+  color: white;
+}
+
 .heropage h5 {
   color: white;
 }

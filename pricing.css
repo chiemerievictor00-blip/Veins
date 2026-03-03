@@ -45,12 +45,12 @@ body {
   display: flex;
   gap: 30px;
   margin-top: 25px;
-  padding-left: 175px;
+  padding-left: 130px;
 }
 
 .pricingcontainer :hover {
   background-color: rgb(255, 255, 255);
-  transition: background-color 0.15s;
+
 }
 
 .popular-field .amount {
@@ -69,7 +69,7 @@ body {
 }
 
 .premiumplan .btn3 {
-  margin-top: 69px;
+  margin-top: 75px;
   border-radius: 8px;
   padding: 6px 6px;
   border: none;
@@ -84,7 +84,7 @@ body {
 }
 
 .popular-field .btn2 {
-  margin-top: 70px;
+  margin-top: 100px;
   border-radius: 8px;
   padding: 6px 6px;
   border: none;
@@ -107,7 +107,7 @@ body {
 }
 
 .basicplan .btn1 {
-  margin-top: 100px;
+  margin-top: 120px;
   border-radius: 8px;
   padding: 6px 6px;
   border: none;
@@ -156,6 +156,9 @@ body {
 
 .activities1 {
   padding-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: red;
 }
 
@@ -163,9 +166,13 @@ body {
   padding-left: 0px;
   padding-top: 20px;
   color: red;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .activities3 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
   padding-top: 20px;
   color: red;
 }

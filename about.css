@@ -16,6 +16,7 @@
   display: flex;
   background-color: black;
   padding-bottom: 8px;
+
 }
 
 .navbar .logo img {
@@ -149,7 +150,7 @@ body {
 .abhead {
   color: red;
   padding-left: 590px;
-  padding-top: 12px;
+  padding-top: 90px;
   padding-bottom: 12px;
 }
 

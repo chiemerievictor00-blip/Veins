@@ -263,8 +263,9 @@ navlinks button:hover {
   margin-top: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
-  gap: 100px;
+  gap: 90px;
 }
+
 
 .socials {
   padding-left: 18px;
@@ -281,10 +282,17 @@ navlinks button:hover {
 }
 
 .listings1 {
+  padding: 0;
+  margin: 0;
   display: flex;
-  gap: 15px;
+   gap: 15px;
   padding-top: 10px;
 }
+
+.listings1 li img:hover {
+  transform: scale(1.7);
+}
+
 
 .newsletter p {
   font-size: 20px;
@@ -303,10 +311,32 @@ navlinks button:hover {
   padding-top: 10px;
 }
 
+.quicklinks h2 {
+  padding-left: 30px;
+}
 
-.contactus ul a {
+.emoji .contact-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.emoji .contact-item .icon {
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+
+
+
+.contactus ul {
   padding-top: 10px;
-  color: red;
+  color:  red;
+}
+
+.contactus h2{
+  padding-left: 35px;
 }
 
 

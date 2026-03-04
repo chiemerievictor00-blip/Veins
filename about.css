@@ -1,7 +1,3 @@
-/* .pinyon-script-regular {
-  
-} */
-
 
 * {
   margin: 0;
@@ -88,7 +84,7 @@ body {
 }
 
 .writeup p {
-  font-family: "Pinyon Script", cursive;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
   color: white;
@@ -108,7 +104,7 @@ body {
   background-color: white;
   border: none;
   border-radius: 3px;
-  margin-left: 300px;
+  margin-left: 50px;
   margin-top: 10px;
   padding: 8px 7px;
 }

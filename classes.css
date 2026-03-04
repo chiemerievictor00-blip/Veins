@@ -8,6 +8,7 @@
 
 
 .navbar {
+  position: fixed;
   display: flex;
   background-color: black;
   padding-bottom: 8px;
@@ -94,6 +95,7 @@ body {
 }
 .classes h3 {
   color: white;
+  margin-bottom: 10PX;
   padding-left: 10px;
   font-family:
     "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
@@ -115,7 +117,7 @@ body {
   margin-top: 11px;
   padding: 6px;
   border: none;
-  border-radius: 3px;
+  border-radius: 10px;
 }
 
 .classes button:hover {
@@ -146,6 +148,7 @@ body {
 .classes h2 {
   color: red;
   padding-left: 10px;
+  margin-bottom: 10PX;
 }
 
 .classhead {

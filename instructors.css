@@ -228,6 +228,7 @@ body {
 .instructors h3 {
   color: red;
   padding-left: 10px;
+  margin-bottom: 10PX;
   font-family:
     "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
     Arial, sans-serif;
@@ -261,6 +262,7 @@ body {
 }
 
 .instructors h2 {
+  margin-bottom: 10PX;
   padding-left: 10px;
 }
 
@@ -390,6 +392,7 @@ body {
 }
 
 .navbar {
+  position: fixed;
   display: flex;
   background-color: black;
   padding-bottom: 8px;

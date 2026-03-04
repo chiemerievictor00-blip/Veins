@@ -451,3 +451,104 @@ navlinks button:hover {
     "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
     Arial, sans-serif;
 }
+
+.footer {
+  display: flex;
+  background-color:  black;
+  border-top: 2px solid red;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  gap: 80px;
+}
+
+
+.socials {
+  padding-left: 18px;
+}
+
+.socials p {
+  font-size: 20px;
+  padding-top: 10px;
+  color: red;
+}
+
+.footer h2 {
+  color: white;
+}
+
+.listings1 {
+  padding: 0;
+  margin: 0;
+  display: flex;
+   gap: 15px;
+  padding-top: 10px;
+}
+
+.listings1 li img:hover {
+  transform: scale(1.7);
+}
+
+
+.newsletter p {
+  font-size: 20px;
+  color: red;
+  padding-top: 10px;
+  padding-bottom:10px;
+}
+
+.quicklinks ul a {
+  padding-top: 10px;
+  font-size: 20px;
+  color: red;
+} 
+
+.quicklinks ul  {
+  padding-top: 10px;
+  padding-left: 18px;
+}
+
+.quicklinks h2 {
+  padding-right: 90px;
+}
+
+.emoji .contact-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.emoji .contact-item .icon {
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.contactus ul {
+  padding-top: 10px;
+  color:  red;
+}
+
+input {
+  padding: 8px 8px;
+  border: none;
+  border-radius: 4px;
+}
+
+form button {
+  padding: 8px 8px;
+  border: none;
+  border-radius: 4px;
+}
+ form button a {
+  color: red;
+  font-weight: bold;
+}
+
+form button:hover {
+  background-color: white;
+}
+
+form button a:hover {
+  color: black;
+}

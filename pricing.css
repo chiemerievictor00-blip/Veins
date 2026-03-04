@@ -313,7 +313,10 @@ navlinks button:hover {
 
 .quicklinks h2 {
   padding-left: 30px;
+
 }
+
+
 
 .emoji .contact-item {
   display: flex;
@@ -327,16 +330,13 @@ navlinks button:hover {
   vertical-align: middle;
 }
 
-
-
-
 .contactus ul {
   padding-top: 10px;
   color:  red;
 }
 
 .contactus h2{
-  padding-left: 35px;
+  padding-left: 40px;
 }
 
 
